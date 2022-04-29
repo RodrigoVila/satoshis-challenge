@@ -3,9 +3,9 @@
 ## How to use
 
 1. Clone this repository
-SSH: `git@github.com:RodrigoVila/satoshis-challenge.git`
+`git@github.com:RodrigoVila/satoshis-challenge.git`
 or
-HTTPS: `https://github.com/RodrigoVila/satoshis-challenge.git`
+`https://github.com/RodrigoVila/satoshis-challenge.git`
 
 2. Go to project folder and install dependencies
  `cd satoshis-challenge`
