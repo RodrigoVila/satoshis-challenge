@@ -35,7 +35,7 @@ const UserInfoModal = ({ isOpen, toggle, user }: IProps) => {
   const registerSince = user?.registered.age;
 
   const center = "flex justify-center items-center";
-  const mainContainer = `fixed top-1/2 left-1/2 z-20 mx-auto flex max-h-screen w-full max-w-lg -translate-x-1/2 -translate-y-1/2 transform md:h-auto ${center} bg-gradient-to-b from-cyan-500 to-blue-500 md:max-w-xl md:rounded-xl md:py-10`;
+  const mainContainer = `fixed top-1/2 left-1/2 z-20 mx-auto flex max-h-screen w-full max-w-lg -translate-x-1/2 -translate-y-1/2 transform md:h-auto ${center} bg-gradient-to-b from-cyan-500 to-blue-500 md:max-w-xl md:rounded-xl md:py-10 2xl:py-4`;
 
   return isOpen
     ? createPortal(

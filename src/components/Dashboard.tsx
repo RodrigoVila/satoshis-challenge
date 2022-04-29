@@ -109,7 +109,7 @@ const Dashboard = () => {
           >
             {"Satoshi's Challenge"}
           </div>
-          <div className="mx-auto box-border flex w-full flex-col flex-wrap items-center justify-center  md:max-w-3xl lg:max-w-5xl xl:flex-row">
+          <div className="mx-auto box-border flex w-full flex-col flex-wrap items-center justify-center px-2  md:max-w-3xl lg:max-w-5xl xl:flex-row">
             <SearchBar
               onChange={onChangeText}
               onClick={closeDropdown}

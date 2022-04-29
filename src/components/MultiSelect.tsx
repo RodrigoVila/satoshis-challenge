@@ -47,7 +47,7 @@ const Multiselect = ({
 
   return (
     <div
-      className="mx-auto flex h-full w-full max-w-xl flex-1 flex-col items-center text-white lg:max-w-lg xl:ml-2 2xl:max-w-xl"
+      className="mx-auto flex h-full w-full max-w-xl flex-1 cursor-pointer flex-col items-center text-white lg:max-w-lg xl:ml-2 2xl:max-w-xl"
       onClick={isOpen ? close : open}
     >
       <div className="w-full">
