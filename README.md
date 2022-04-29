@@ -1,46 +1,54 @@
-# Getting Started with Create React App
+# Technical challenge for Satoshi's games
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## How to use
 
-## Available Scripts
+1. Clone this repository
+SSH: `git@github.com:RodrigoVila/satoshis-challenge.git`
+or
+HTTPS: `https://github.com/RodrigoVila/satoshis-challenge.git`
 
-In the project directory, you can run:
+2. Go to project folder and install dependencies
+ `cd satoshis-challenge`
+ `npm install` or  `yarn install`
 
-### `npm start`
+3. Then run:
+`npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Requirements
 
-### `npm test`
+1. Call the open API at https://randomuser.me/ to fetch a list of users. Display a reasonable number of users in a table / list view with a summary of the information about each user. Use your best judgement about what to display. :)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Have a text input that the user can type into in order to quickly filter the visible list of users by their first / last name.
 
-### `npm run build`
+3. Have a nationality selector / filter, so the user can retrieve from the server people from specific nationalities. The API supports sending multiple nationalities so your UI should allow selecting more than one as well. See the documentation at https://randomuser.me/documentation#nationalities
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Basic requirements
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### These requirements must be met for your solution to be accepted.
 
-### `npm run eject`
+1. We use Typescript, and expect you to write your solution in Typescript. We also use React Hooks so you should use that as well.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+2. The application must filter visible users, and fetch from the server only those with selected nationalities. By default, all nationalities are shown (and thus "selected"). You may choose a small subset of all nationalities available in the API.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Your code should be modular, and be well organized. 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+4. Potential errors and "empty states" must be taken into account. Do not code only the happy path. ;)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+5. You should provide us with a link to your code, and a working URL so we can quickly test out the app (you can use anything from CodeSandbox or Replit to free hosting solutions like Netlify or Vercel). We expect you to know how to deploy your code using any of these platforms.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Nice to have but not required
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Clicking on a user list item "opens" a detailed view of the user.
+
+2. We use TailwindCSS in case you want to polish your UI.
+
+3. Use the "state" technology you prefer. We're currently very fond of Recoil. Redux is NOT needed.
+
+4. We're fans of React Query for data fetching, and using it is a plus. But plain old fetch is fine.
+
+5. We like clean code and tests. Keep an eye out for code quality and, if you feel like it, provide some tests.
+
+6. Performance is important. 
