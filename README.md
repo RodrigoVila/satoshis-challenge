@@ -1,6 +1,6 @@
 # Technical challenge for Satoshi's games
 
-## How to use
+### How to use
 
 1. Clone this repository
 `git@github.com:RodrigoVila/satoshis-challenge.git`
@@ -13,7 +13,11 @@ or
 
 3. Then run: `npm start`
 
-## Requirements
+### Live Demo
+
+https://satoshis-challenge.vercel.app/
+
+### Requirements
 
 1. Call the open API at https://randomuser.me/ to fetch a list of users. Display a reasonable number of users in a table / list view with a summary of the information about each user. Use your best judgement about what to display. :)
 
@@ -21,7 +25,7 @@ or
 
 3. Have a nationality selector / filter, so the user can retrieve from the server people from specific nationalities. The API supports sending multiple nationalities so your UI should allow selecting more than one as well. See the documentation at https://randomuser.me/documentation#nationalities
 
-## Basic requirements
+### Basic requirements
 
 #### These requirements must be met for your solution to be accepted.
 
@@ -35,7 +39,7 @@ or
 
 5. You should provide us with a link to your code, and a working URL so we can quickly test out the app (you can use anything from CodeSandbox or Replit to free hosting solutions like Netlify or Vercel). We expect you to know how to deploy your code using any of these platforms.
 
-## Nice to have but not required
+### Nice to have but not required
 
 1. Clicking on a user list item "opens" a detailed view of the user.
 
