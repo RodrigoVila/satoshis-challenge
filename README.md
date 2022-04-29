@@ -7,13 +7,11 @@
 or
 `https://github.com/RodrigoVila/satoshis-challenge.git`
 
-2. Go to project folder and install dependencies
- `cd satoshis-challenge`
- `npm install` or  `yarn install`
+2. Go to project folder `cd satoshis-challenge`
+ 
+3. Install dependencies `npm install` or  `yarn install`
 
-3. Then run:
-`npm start`
-
+3. Then run: `npm start`
 
 ## Requirements
 
@@ -22,7 +20,6 @@ or
 2. Have a text input that the user can type into in order to quickly filter the visible list of users by their first / last name.
 
 3. Have a nationality selector / filter, so the user can retrieve from the server people from specific nationalities. The API supports sending multiple nationalities so your UI should allow selecting more than one as well. See the documentation at https://randomuser.me/documentation#nationalities
-
 
 ## Basic requirements
 
@@ -37,7 +34,6 @@ or
 4. Potential errors and "empty states" must be taken into account. Do not code only the happy path. ;)
 
 5. You should provide us with a link to your code, and a working URL so we can quickly test out the app (you can use anything from CodeSandbox or Replit to free hosting solutions like Netlify or Vercel). We expect you to know how to deploy your code using any of these platforms.
-
 
 ## Nice to have but not required
 
